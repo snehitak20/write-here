@@ -48,4 +48,5 @@ export const putDb = async (content) => {
   const result = await request;
   console.log('🚀 - data saved to the database', result);
 }
+
 initdb();
